@@ -1,0 +1,8 @@
+name: ItemEditor
+version: 0.0.1
+main: com.itemeditor.Main
+description: ItemEditor.
+
+commands:
+    itemeditor:
+        description: Base itemeditor command.
