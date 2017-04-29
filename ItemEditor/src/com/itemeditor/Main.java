@@ -34,6 +34,7 @@ public class Main extends JavaPlugin {
 	
 	private void commands() {
 		getCommand("itemeditor").setExecutor(new Commands());
+		getCommand("itemeditor").setTabCompleter(new Commands());
 	}
 	
 
